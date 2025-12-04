@@ -1,0 +1,18 @@
+[project]
+name = "cns-profile"
+requirements = []
+
+[contracts.cns-profile]
+path = "contracts/cns-profile.clar"
+clarity-version = 2
+epoch = 2.4
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+
+[dependencies]
+# Declares the CNS Registrar contract as an external dependency for testing/deployment
+cns-registrar = { principal = "ST1PQHQKV0RJQDZKYR4T6YVRQND4K41GC7S1B1KBT.cns-registrar", version = "0" }
