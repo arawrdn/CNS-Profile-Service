@@ -25,7 +25,7 @@ This project strictly relies on the `cns-registrar` contract (from the related C
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/cns-profile-service.git](https://github.com/your-username/cns-profile-service.git)
+    git clone [https://github.com/arawrdn/cns-profile-service.git](https://github.com/your-username/cns-profile-service.git)
     cd cns-profile-service
     ```
 
